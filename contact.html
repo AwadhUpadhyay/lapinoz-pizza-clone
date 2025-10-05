@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pinoz Pizza Website</title>
+    <link href="/CSS/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .slider {
+            background: url('your-image-url') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .slider img {
+            width: 100%;
+        }
+
+        .slider h1 {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+        }
+
+        .slider p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .container h2 {
+
+            /* background-color: lightgreen; */
+        }
+
+        .popular-items ul {
+            /* list-style: circle; */
+            padding-left: 0;
+        }
+
+        .popular-items ul li {
+            /* list-style: circle; */
+            margin-bottom: 5px;
+            padding-left: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #006630;
+            padding: 20px 0;
+        }
+        .company-info{
+            padding: 1rem;
+            margin-top: 1rem;
+            height: 90%;
+            background-color: #fff;
+            border-radius: 10px;
+            /* box-shadow: 0 10px 22px -10px rgba(0, 0,0, 0.3); */
+            text-align: center;
+        }
+        .company-info i{
+            background: url(https://lapinozpizza.in/assets/wla_new/lapinoz/img/shape.svg) no-repeat bottom ;
+           
+        }
+        .company-info i{
+            font-size: 30px;
+            width: 150px;
+            height: 104px;
+            line-height: 4.5rem;
+            color: white;
+            padding-left: 7px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #f1f0f5;">
+    <!-- Nav bar start -->
+   
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="/demo.html">
+                    <img src="/IMG/logo-5-1725610081.png" height="25%" width="25%" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/demo.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Add To Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Veg Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+     <!-- Nav bar End -->
+   <!-- contact message section start -->
+   <div class="container bg-light my-5 text-center">
+       <div class="row ">
+           <div class="col">
+               <h1 style="font-size: 2.7em; color:#24572C; text-transform: uppercase; margin-top: 5px;">We would love to hear from you </h1>
+            </div>          
+        </div>
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 18px; line-height: 24px; margin-top: 5px; color: #24572C;"> Drop us a line to say hello</p>
+            </div>
+        </div>
+    </div>
+    <!-- contact message section end -->
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-3 " style="height: 40vh;">
+                <div class="company-info">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h5>Address</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur!</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-3" style="height: 40vh;">
+                <div class="company-info shadow-lg p-3 mb-5  rounded">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>Email for Franchise Enquiry</h5>
+                    <p>info@lapinozpizza.in</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-3" style="height: 40vh;">
+                <div class="company-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>Email for Customer Support</h5>
+                    <p>support123@gmail.com</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-3" style="height: 40vh;">
+                <div class="company-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>Contact Us</h5>
+                    <p>+91-9060483787</p>
+                    
+                </div>
+            </div> 
+            
+            </div>       
+    
+        </div>
+   
+
+
+   
+
+    <!-- Photo Gallery section start -->
+
+    <!-- <section class="container">
+        <div class="row my-2">
+            <div class="col-md-12">
+                <h2 class="text-center">Photo Gallery</h2>
+                <div class="row gallery">
+                    <div class="col-sm-3">
+                        <img src="/IMG/footerimg1.jpeg" alt="Gallery 1">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="/IMG/footerimg12jpeg.jpeg" alt="Gallery 2">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="/IMG/footerimg3jpeg.jpeg" alt="Gallery 3">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="/IMG/footerimg4.png" alt="Gallery 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Photo Gallery section  End-->
+
+    <!-- footer section Start -->
+    <footer >
+        <div class="container">
+            <div class="row text-light ">
+                <div class="col-md-3">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, distinctio veniam.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Photo Gallery</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, optio.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <p>Call Us: +91 00000 00000</p>
+                    <p>Mail: Demo@gmail.com</p>
+                    <p>Address: Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="col-md-2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56973.8767405167!2d80.85990615327572!3d26.8123537612563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd75f59bd6bd%3A0x6307bb9795e721ff!2sPizza%20Wings%20Lucknow%20(Alambagh)!5e0!3m2!1sen!2sin!4v1726999470693!5m2!1sen!2sin"
+                        width="400" height="120" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-md-3 ms-5" >
+                    <div class="social-icons mt-3 " style="float: right;" >
+                    <a href="#" class="text-light me-2"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-light me-2"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-light me-2"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+                </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+        </div>
+    </footer>
+    <!-- footer section End -->
+
+
+    <script src="/JS/bootstrap.bundle.js"></script>
+</body>
+
+</html>

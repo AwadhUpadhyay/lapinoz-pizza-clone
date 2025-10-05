@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Pinoz's Pizza</title>
+  <link rel="stylesheet" href="/CSS/bootstrap.css">
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+  <!-- Outer Start -->
+  <div class="container-fluid">
+    <!-- Navbar Start -->
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-expand-lg bg-success">
+          <div class="container-fluid">
+            <img src="/IMG/logo-5-1725610081.png" height="50" width="70" alt="">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item text-light">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Order Onlne</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Franchise Enquiry
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Store Locator</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Slider Start -->
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" style="height: 50vh;">
+            <div class="carousel-item active h-100">
+              <img src="/IMg/slider1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/IMg/slider2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/IMg/slider3.jpeg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Slider End -->
+    <!-- About section start -->
+     <div class="about">
+    <div class="row my-3 mx-2 bg-success" style="width: 70%;" >
+      <div class="col-sm-12 " >
+        <h4>About Us</h4>
+        <hr style="color: black; border: 1px solid;">
+        <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo deleniti
+          recusandae commodi voluptatem,
+          architecto exercitationem vero quaerat magnam, molestias iusto aliquam laboriosam atque suscipit obcaecati.
+          Laudantium incidunt quaerat, dicta hic repudiandae fugiat est odio tenetur reprehenderit, quia, eum voluptatum
+          dolorum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quibusdam praesentium sit velit rem
+          temporibus consequatur illum fugit quia amet!</p>
+      </div>
+        <div class="col-sm-12 my-2">
+          <img src="/IMG/slider4.jpeg" width="100%" alt="">
+        </div>
+      
+      <div class="col-sm-12 my-1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque accusamus eum quae totam voluptas error alias
+          debitis unde deleniti. Quaerat facere, commodi voluptates veritatis hic consequuntur nesciunt aspernatur porro
+          dolorem delectus placeat saepe. Voluptatem, praesentium. Quam labore quia dolores quas, optio, fugit, neque
+          inventore necessitatibus ea ut voluptas adipisci numquam?</p>
+      </div>
+    </div>
+    <!-- left box start -->
+     
+     <!-- left box End -->
+    
+  </div>
+    <!-- About section End-->
+
+     
+  </div>
+  <!-- Outer End -->
+
+</body>
+
+</html>
